@@ -1,0 +1,33 @@
+APIs
+
+API is a programme that hepls to intract one software programe to another through securely. I also helps developers to not building any application from scrach.
+
+API architecture.
+It works on client server architecture. The application sends the request is works as client and the application sends the response is works as server.
+
+Types of API dependin upon usability
+
+1.	SOAP APIs - This is simple object access protocol, where client and server exchanges the messages us XML.
+
+2.	RPC APIs - This is Remote procedure calls, where client completes a function / procedure and server sens the output back to the client
+
+4.	Webs APIs - This is an API which works as interface between web browser and web server.
+
+5.	websocket APIs - It is modern version of web API that usages JSON objects to pass data. Websocke API supports 2 way communication between client app and the server. The server send callback messge to connected clients.
+
+6.	REST APIs - It stands for Representational State Transfer. The client sends request to server as data. The server uses the client input to start inetnal functions and returns output data back to the client.
+REST define set of functions like GET, PUT, DELETE, POST, etc. Here client and server excahnge data through HTTP call. 
+
+API endpoint
+The specific address or URL where an application interacts with a server to request data or perform an action
+
+How to secure API?
+1. Authentication tokens - It is used to authorise user / client to make call. It is more secured then API keys
+2. API keys - API keys verify the program or application making the API call. They identify the application and ensure it has the access rights required to make the particular API call.
+
+How to create an API?
+1. Plan the API 
+2. Build the API
+3. Test the API 
+4. Document the API  
+5. Market the API 
